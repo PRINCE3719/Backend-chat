@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieparse())
 
 const corsOptions = {
-    origin: 'https://66018975e37e7a2afbff3ffd--aquamarine-malasada-425d41.netlify.app', 
+    origin: 'https://66018ec369f9eb2ce5cb3302--scintillating-chimera-0622dc.netlify.app', 
     credentials: true,
 };
 
