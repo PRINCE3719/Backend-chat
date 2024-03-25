@@ -1,9 +1,9 @@
 const express = require("express");
 
 const dotenv = require("dotenv")
-const authroutes = require("../Backend/routes/authroutes.js");
-const messageroutes = require("../Backend/routes/messageroutes.js");
-const userRoutes = require("../Backend/routes/userRoutes.js");
+const authroutes = require("./routes/authroutes.js");
+const messageroutes = require("./routes/messageroutes.js");
+const userRoutes = require("./routes/userRoutes.js");
 const connectdb = require("./database/database.js");
 const cookieparse = require("cookie-parser");
 const cors = require("cors");
