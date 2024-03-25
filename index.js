@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieparse())
 
 const corsOptions = {
-    origin: 'http://localhost:3000', 
+    origin: 'https://66018666db8a1b25baccc5dd--benevolent-faloodeh-79b7fe.netlify.app/', 
     credentials: true,
 };
 
