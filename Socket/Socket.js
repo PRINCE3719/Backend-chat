@@ -9,7 +9,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server,{
     cors:{
-        origin:['http://localhost:3000'],
+        origin:['https://66018ec369f9eb2ce5cb3302--scintillating-chimera-0622dc.netlify.app'],
         methods:["GET","POST"]
     }
 });
